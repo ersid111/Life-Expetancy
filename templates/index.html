@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predict</title>
+</head>
+<body>
+    <form action="/predict" method="POST">
+        <label>Year</label> <input type="value" name='Year'> <br><br>
+        <!-- <label>Life expectancy</label> <input type="text" name='Life expectancy '> <br><br> -->
+        <label>Adult Mortality</label> <input type="value" name='Adult Mortality'> <br><br>
+        <label>infant deaths</label> <input type="value" name='infant deaths'> <br><br>
+        <label>Alcohol</label> <input type="value" name='Alcohol'> <br><br>
+        <label>bmi</label> <input type="value" name='bmi'> <br><br>
+        <label>percentage expenditure</label> <input type="value" name='percentage expenditure'> <br><br>
+        <label>Hepatitis B</label> <input type="value" name='Hepatitis B'> <br><br>
+        <label>Measles </label> <input type="value" name='Measles '> <br><br>
+        <label>under-five deaths</label> <input type="value" name='under-five deaths '> <br><br>
+        <label>Polio</label> <input type="value" name='Polio'> <br><br>
+        <label>Total expenditure</label> <input type="value" name='Total expenditure'> <br><br>
+        <label>Diphtheria</label> <input type="value" name='Diphtheria '> <br><br>
+        <label>HIV/AIDS</label> <input type="value" name=' HIV/AIDS'> <br><br>
+        <label>GDP</label> <input type="value" name='GDP'> <br><br>
+        <label>thinness  1-19 years</label> <input type="value" name=' thinness  1-19 years'> <br><br>
+        <label>thinness 5-9 years</label> <input type="value" name=' thinness 5-9 years'> <br><br>
+        <label>Income composition of resources</label> <input type="value" name='Income composition of resources'> <br><br>
+        <label>Schooling</label> <input type="value" name='Schooling'> <br><br>
+        <label>log_population</label> <input type="value" name='log_population'> <br><br>
+        <input type="submit" > <br><br>
+        <br>
+        {{ prediction }}
+
+
+
+
+    </form>
+</body>
+</html>
